@@ -1,5 +1,9 @@
 import Image from "next/image";
 import { Geist, Geist_Mono } from "next/font/google";
+import Navbar from "./navbar";
+import Header from "@/components/header";
+import Footer from "@/components/footer";
+import Layout from "@/components/layout";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -12,7 +16,8 @@ const geistMono = Geist_Mono({
 });
 
 export default function Home() {
-  return (
-   <div>Developer Sachin is here!!</div>
-  );
+  return <Layout>
+    <h1>Index file</h1>
+
+  </Layout>;
 }
