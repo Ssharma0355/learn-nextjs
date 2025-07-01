@@ -6,8 +6,8 @@ import Footer from "@/components/footer";
 import Layout from "@/components/layout";
 
 export default function Home() {
-  return <Layout>
-    <h1>Index file</h1>
+  return <Layout title={"Home page"}>
+    <h1 className="bg-dark text-light">Index file</h1>
 
   </Layout>;
 }
