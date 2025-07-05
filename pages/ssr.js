@@ -11,6 +11,7 @@ const SSR = ({ users = [] }) => {
     <>
     <div>Sample</div>
       <p>SSR fetch</p>
+      <h1>Line of code </h1>
       {users.length === 0 ? (
         <p>No users found</p>
       ) : (
